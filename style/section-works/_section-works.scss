@@ -1,0 +1,52 @@
+.section-works {
+    width: 100%;
+    height: 796px;
+    background-color: #ffffff;
+    padding-top: 16px;
+    border-top: 1px solid #d7d6d6;
+    &__lists {
+        margin: 56px 0px 26px 0px;
+    }
+    &__item {
+        width: 288px;
+        height: 444px;
+        float: left;
+        margin: 0px 0px 0px 102px;
+    }
+    &__img {
+        width: 286px;
+        height: 334px;
+        border-radius: 8px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #333333;
+        padding: 0px 0px 8px 0px;
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 2;
+        text-align: center;
+    }
+    &__circle {
+        position: relative;
+        top: -26px;
+        left: 108px;
+        width: 72px;
+        height: 72px;
+        background-color: black;
+        border: 10px solid #ffffff;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 14px;
+        padding-left: 6px;
+
+        color: #ffffff;
+    }
+}
