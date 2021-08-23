@@ -1,0 +1,39 @@
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: normal;
+    text-align: left;
+    position: absolute;
+    color: #054c73;
+    margin-left: 28px;
+}
+
+.menu {
+    background-color: aquamarine;
+    margin: 0px 120px 0px 246px;
+    &__items {
+        padding: 10px;
+
+    }
+    &__item {
+        display: inline;
+        padding: 10px;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 600;
+        text-align: left;
+        text-decoration: none;
+        color: #333333;
+    }
+}
