@@ -9,9 +9,9 @@
 
 .introduction {
     position: absolute;
-    top: 239px;
+    top: 200px;
     left: 636px;
-    height: 343px;
+    height: 376px;
     width: 543px;
     border-radius: 10px;
     background: #dfe9f4;
@@ -23,9 +23,11 @@
         font-size: 18px;
         color: #333333;
         padding: 0px 0px 18px 0px;
+        line-height: 2;
     }
+
     &__title {
-        font-size: 52px;
+        font-size: 38px;
         font-weight: 700;
         text-align: left;
         color: #054c73;

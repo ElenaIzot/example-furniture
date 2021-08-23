@@ -4,14 +4,29 @@
     left: 0px;
     top: 122px;
     background-color: #ffffff;
+    &__lists{
+        margin: 86px 0px 26px 0px;
+    }
+    &__item {
+        width: 366px;
+        height: 444px;
+        float: left;
+        margin: 0px 0px 0px 52px;
+    }
     &__img {
         width: 355px;
         height: 434px;
-        margin: 60px 0px 10px 50px;
-        &_up{
+        &_up {
             position: relative;
             top: -56px;
         }
     }
-  
+
+    &__text {
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        color: #333333;
+        padding: 16px 0px 8px 0px;
+    }
 }
