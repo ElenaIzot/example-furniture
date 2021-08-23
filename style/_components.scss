@@ -15,7 +15,6 @@
 
 .caption {
     margin-top: 46px;
-
     &__subtitle {
         font-weight: bold;
         font-size: 32px;
@@ -30,5 +29,29 @@
         text-align: center;
         color: #666666;
         padding: 8px;
+    }
+}
+
+.form {
+    width: 386px;
+    height: auto;
+    margin: 36px auto 36px auto;
+    &__input {
+        width: 256px;
+        height:48px;
+        background: #ffffff;
+        border: 1px solid #054c73;
+        border-radius: 3px;
+    }
+
+    &__button {
+        width: 120px;
+        height:48px;
+        background: #054c73;
+        border: 1px solid #011c42;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #ffffff;
     }
 }
