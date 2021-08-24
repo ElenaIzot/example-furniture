@@ -1,44 +1,56 @@
-.text{
+.text {
     font-weight: 400;
     font-size: 18px;
     color: $text-color;
-    padding: 0px 0px 16px 0px;
+    padding: 0px 0px $step * 2 0px;
     line-height: 2;
 }
 
 .button {
-    padding: 8px;
+    padding: $step;
     width: 176px;
     height: 50px;
-    background: #054c73;
-    border: solid #054c73 1px;
+    background: $bg-color-blue;
+    border: solid $bg-color-blue 1px;
     border-radius: 50px;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+
+    @media (max-width: 768px) {
+        width: 156px;
+        height: 46px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
 }
 
 .caption {
-    // margin-top: 46px;
     &__subtitle {
         font-weight: bold;
         font-size: 32px;
         text-align: center;
-        color: #333333;
-        padding: 8px;
+        color: $text-color;
+        padding: $step;
     }
-
     &__text {
         font-weight: normal;
         font-size: 20px;
         text-align: center;
         color: #666666;
-        padding: 8px;
+        padding: $step;
     }
-   
+
+    @media (max-width: 768px) {
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
 }
 
 .form {
@@ -46,19 +58,19 @@
     height: auto;
     &__input {
         width: 256px;
-        height:48px;
-        background: #ffffff;
-        border: 1px solid #054c73;
+        height: 48px;
+        background: $bg-color-light;
+        border: 1px solid $bg-color-blue;
         border-radius: 3px;
     }
     &__button {
         width: 120px;
-        height:48px;
-        background: #054c73;
+        height: 48px;
+        background: $bg-color-blue;
         border: 1px solid #011c42;
         border-radius: 3px;
         font-weight: bold;
         font-size: 16px;
-        color: #ffffff;
+        color: $text-color-light;
     }
 }

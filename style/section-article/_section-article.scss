@@ -1,10 +1,17 @@
 .section-article {
-    height: 700px;
+    height: 646px;
     background: #f2f5ff;
     padding: 48px 0px 48px 0px;
     &__item {
-        width: 50%;
+        width: 40%;
         float: left;
+        padding: 16px;
+        margin: 14% 0% 0% 0%;
+    }
+    &__photo {
+        width: 60%;
+        height: 550px;
+        float: right;
         padding: 16px;
     }
     &__title {
@@ -14,30 +21,72 @@
         padding: 0px 0px 16px 0px;
     }
     &__text {
-        font-size: 20px;
-        padding: 0px 0px 8px 0px;
+        font-size: 18px;
+        padding: 0px 0px 16px 0px;
     }
-    &__button{
+    &__button {
         padding: 16px;
     }
     &__img {
-        width: 60%;
- 
         position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 60px 10px;
         z-index: 2;
-        border-radius: 8px;
     }
 
-    
     &__circle {
         position: relative;
         width: 300px;
         height: 300px;
         top: -386px;
-        left: 96px;
+        left: 286px;
         border-radius: 50%;
         text-align: center;
         background: #09513b;
         z-index: 1;
+    }
+
+    @media (max-width: 992px) {
+        &__circle {
+            width: 250px;
+            height: 250px;
+            top: -326px;
+            left: 226px;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 518px;
+        &__photo {
+            height: 350px;
+        }
+        &__item {
+            margin: 6% 0% 0% 0%;
+        }
+        &__title {
+            font-weight: bold;
+            font-size: 28px;
+            color: #333333;
+            padding: 0px 0px 16px 0px;
+        }
+        &__text {
+            font-size: 14px;
+            padding: 0px 0px 16px 0px;
+        }
+        &__button {
+            padding: 16px;
+        }
+
+        &__circle {
+            width: 150px;
+            height: 150px;
+            top: -226px;
+            left: 206px;
+            margin: 0;
+        }
     }
 }

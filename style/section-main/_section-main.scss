@@ -8,7 +8,7 @@
         background: #dfe9f4;
         border-radius: 10px;
         padding: $step * 4;
-        margin: 0px 0px 0px 50%;
+        margin: 0% 0% 0% 50%;
     }
     &__text {
         font-weight: 500;
@@ -20,5 +20,12 @@
         text-align: left;
         color: $title-color;
         padding: 0px 0px $step * 2 0px;
+    }
+
+    @media (max-width: 768px) {
+        
+        &__title {
+            font-size: 26px;
+        }
     }
 }
