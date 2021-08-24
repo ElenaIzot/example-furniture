@@ -1,3 +1,11 @@
+.text{
+    font-weight: 400;
+    font-size: 18px;
+    color: $text-color;
+    padding: 0px 0px 16px 0px;
+    line-height: 2;
+}
+
 .button {
     padding: 8px;
     width: 176px;
@@ -14,7 +22,7 @@
 }
 
 .caption {
-    margin-top: 46px;
+    // margin-top: 46px;
     &__subtitle {
         font-weight: bold;
         font-size: 32px;
@@ -36,7 +44,6 @@
 .form {
     width: 386px;
     height: auto;
-    margin: 36px auto 36px auto;
     &__input {
         width: 256px;
         height:48px;
@@ -44,7 +51,6 @@
         border: 1px solid #054c73;
         border-radius: 3px;
     }
-
     &__button {
         width: 120px;
         height:48px;

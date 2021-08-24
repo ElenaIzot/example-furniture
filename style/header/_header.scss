@@ -1,39 +1,39 @@
-header {
-    background-color: #ffffff;
+.header {
+    background-color: $bg-color-light;
     width: 100%;
-    height: auto;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    padding: 8px;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: normal;
-    text-align: left;
-    position: absolute;
-    color: #054c73;
-    margin-left: 28px;
+    height: 70px;
+    padding: $step * 2 $step * 2;
 }
 
 .menu {
-
-    margin: 0px 120px 0px 246px;
-    &__items {
-        padding: 10px;
-
+    margin: 0px $step * 15 0px $step * 30;
+    &__logo {
+        float: left;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: left;
+        color: $title-color;
+        margin: 0px 0px 0px $step * 4;
+        padding-bottom: $step;
+    }
+    &__body {
+        padding: $step;
+    }
+    &__list {
+        float: right;
     }
     &__item {
         display: inline;
-        padding: 10px;
+        padding: $step * 2;
     }
     &__link {
-        font-size: 14px;
+        font-size: $step * 2;
         font-weight: 600;
         text-align: left;
         text-decoration: none;
-        color: #333333;
+        color: $text-color;
+        &:hover{
+            color: $link-hover;
+        }
     }
 }

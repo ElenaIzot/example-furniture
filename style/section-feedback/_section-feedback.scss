@@ -1,7 +1,13 @@
 .section-feedback {
     width: 100%;
-    height: 286px;
+    height: 336px;
     background: #f2f5ff;
-    padding-top: 16px ;
+    padding: $step*6 0px $step*6 0px;
+    &__form{
+        padding: $step*3 0px $step*3 0px;
+        margin: auto;
+    }
 }
+
+
 
