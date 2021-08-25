@@ -50,6 +50,16 @@
     }
 
     @media (max-width: 992px) {
+        height: 553px;
+      
+        &__photo {
+            height: 457px;
+        }
+        &__item{
+            padding: 24px;
+            margin: 6% 0% 0% 0%;
+        }
+
         &__circle {
             width: 250px;
             height: 250px;
