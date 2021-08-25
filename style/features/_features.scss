@@ -32,15 +32,32 @@
         }
     }
 
-    // @media (min-width: 768px) {
-    //     &__item {
-    //         width: 33%;
-    //     }
-    //     &__title {
-    //         font-size: 18px;
-    //     }
-    //     &__text {
-    //         font-size: 14px;
-    //     }
-    // }
+    @media (max-width: 768px) {
+        height: 202px;
+        &__item {
+            width: 33%;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        &__item {
+            float: left;
+            width: 33%;
+            padding: $step * 2 0px 0px $step * 2;
+        }
+        &__title {
+            font-size: 20px;
+        }
+
+        &__img {
+            float: none;
+            padding: 0px $step * 5 0px $step * 5;
+        }
+    }
 }

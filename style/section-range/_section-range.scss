@@ -41,4 +41,8 @@
             font-size: 18px;
         }
     }
+
+    @media (max-width: 576px) {
+        height: 477px;
+    }
 }

@@ -43,13 +43,36 @@
         margin: 0px 6px 0px 0px;
     }
 
-    @media (min-width: 768px) {
-        height: 315px ;
+    @media (max-width: 768px) {
+        height: 315px;
         &__title {
             font-size: 20px;
         }
         &__text {
             font-size: 12px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        height: 336px;
+        &__title {
+            &_sm {
+                padding: 0px 0px 16px 4px;
+            }
+        }
+
+        &__lists {
+            width: 50%;       
+        }
+
+        &__instagram {
+            width: 50%;
+        }
+       
+        &__img {
+            float:left;
+            width: 33%;
+            margin: 0% 0% 2% 2%;
         }
     }
 }

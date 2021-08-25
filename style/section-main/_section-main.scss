@@ -22,7 +22,42 @@
         padding: 0px 0px $step * 2 0px;
     }
 
-    @media (min-width : 320px) and (max-width : 480px){
+    @media (max-width: 992px) {
+        background-size: 123%;
+    }
+
+    @media (max-width: 768px) {
+        background-size: 150%;
+        &__title {
+            font-size: 26px;
+        }
+        &__introduction {
+            width: 50%;
+            padding: 18px;
+            margin: 0% 0% 0% 3%;
+        }
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        padding: 80px 0px 80px 0px;
+        background-size: 155%;
+        &__introduction {
+            width: 63%;
+            padding: 18px;
+            margin: 0% 0% 0% 2%;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
         padding: 80px 0px 80px 0px;
         background: url(../../img/bd-main.png) no-repeat;
         background-size: 208%;
@@ -39,38 +74,5 @@
         }
     }
 
-    @media (max-width: 576px) {
-        padding: 80px 0px 80px 0px;
-        background-size: 155%;
-        &__introduction {
-            width: 63%;
-            padding: 18px;
-            margin: 0% 0% 0% 0%;
-        }
-        &__text {
-            font-size: 16px;
-        }
-        &__title {
-            font-size: 20px;
-        }
-    }
-    @media (max-width: 768px) {
-        background: url("../../img/bd-main.png") no-repeat;
-        background-size: 150%;
-        &__title {
-            font-size: 26px;
-        }
-        &__introduction {
-            width: 50%;
-            padding: 18px;
-            margin: 0% 0% 0% 50%;
-        }
-        &__text {
-            font-size: 16px;
-        }
-    }
-    @media (max-width: 992px) {
-        background: url("../../img/bd-main.png") no-repeat;
-        background-size: 123%;
-    }
+  
 }

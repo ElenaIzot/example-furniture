@@ -3,9 +3,14 @@
     height: 336px;
     background: #f2f5ff;
     padding: $step*6 0px $step*6 0px;
+    
     &__form{
         padding: $step*3 0px $step*3 0px;
         margin: auto;
+    }
+
+    @media (max-width: 576px) {
+        height: 320px;
     }
 }
 

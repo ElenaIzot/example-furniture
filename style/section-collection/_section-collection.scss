@@ -54,4 +54,16 @@
         }
     }
 
+    @media (max-width: 576px) {
+        height: 482px;
+        &__img {
+            &_left{
+                border-radius: 46px 0px 0px 0px; 
+            }
+            &_right{
+                border-radius: 0px 0px 46px 0px; 
+            }
+        }
+    }
+
 }

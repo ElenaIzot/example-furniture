@@ -4,6 +4,12 @@
     color: $text-color;
     padding: 0px 0px $step * 2 0px;
     line-height: 2;
+
+    @media (max-width: 576px) {
+        &_hidden {
+            display: none;
+        }
+    }
 }
 
 .button {
@@ -22,8 +28,15 @@
     @media (min-width: 768px) {
         width: 156px;
         height: 46px;
+    }
+
+    @media (max-width: 576px) {
+        padding: $step;
+        width: 146px;
+        height: 46px;
         border-radius: 50px;
-        font-size: 16px;
+        font-size: 14px;
+        
     }
 }
 
@@ -51,6 +64,15 @@
             font-size: 20px;
         }
     }
+
+    @media (max-width: 576px) {
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+    }
 }
 
 .form {
@@ -72,5 +94,6 @@
         font-weight: bold;
         font-size: 16px;
         color: $text-color-light;
+        
     }
 }

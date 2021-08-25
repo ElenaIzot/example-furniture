@@ -51,7 +51,6 @@
 
     @media (max-width: 992px) {
         height: 553px;
-      
         &__photo {
             height: 457px;
         }
@@ -70,12 +69,13 @@
     }
 
     @media (max-width: 768px) {
-        height: 518px;
+        height: 451px;
         &__photo {
-            height: 350px;
+            height: 355px;
+            width: 60%;
         }
         &__item {
-            margin: 6% 0% 0% 0%;
+            margin: 0% 0% 0% 0%;
         }
         &__title {
             font-weight: bold;
@@ -97,6 +97,41 @@
             top: -226px;
             left: 206px;
             margin: 0;
+        }
+    }
+
+    @media (max-width: 576px) {
+        height: 431px;
+        &__photo {
+            height: 335px;
+            border-radius: 46px 8px;
+        }
+        &__img {
+            width: 64%;
+            border-radius: 46px 8px;
+            z-index: 2;
+        }
+        &__item {
+            padding: $step*2;
+            margin: 0% 0% 0% 0%;
+        }
+        &__title {
+            font-size: 20px;
+            padding: 0px 0px 16px 0px;
+        }
+        &__text {
+            font-size: 14px;
+            padding: 0px 0px 16px 0px;
+        }
+        &__button {
+            padding: 16px;
+        }
+
+        &__circle {
+            width: 150px;
+            height: 150px;
+            top: -218px;
+            left: 148px;
         }
     }
 }
