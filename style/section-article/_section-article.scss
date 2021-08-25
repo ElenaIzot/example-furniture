@@ -1,31 +1,31 @@
 .section-article {
     height: 646px;
     background: #f2f5ff;
-    padding: 48px 0px 48px 0px;
+    padding: $step*6 0px $step*6 0px;
     &__item {
         width: 40%;
         float: left;
-        padding: 16px;
+        padding: $step*2;
         margin: 14% 0% 0% 0%;
     }
     &__photo {
         width: 60%;
         height: 550px;
         float: right;
-        padding: 16px;
+        padding: $step*2;
     }
     &__title {
         font-weight: bold;
         font-size: 32px;
-        color: #333333;
-        padding: 0px 0px 16px 0px;
+        color: $text-color;
+        padding: 0px 0px $step*2 0px;
     }
     &__text {
         font-size: 18px;
-        padding: 0px 0px 16px 0px;
+        padding: 0px 0px $step*2 0px;
     }
     &__button {
-        padding: 16px;
+        padding: $step*2;
     }
     &__img {
         position: relative;
@@ -80,15 +80,14 @@
         &__title {
             font-weight: bold;
             font-size: 28px;
-            color: #333333;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__text {
             font-size: 14px;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__button {
-            padding: 16px;
+            padding: $step*2;
         }
 
         &__circle {
@@ -104,11 +103,11 @@
         height: 431px;
         &__photo {
             height: 335px;
-            border-radius: 46px 8px;
+            border-radius: 46px $step;
         }
         &__img {
             width: 64%;
-            border-radius: 46px 8px;
+            border-radius: 46px $step;
             z-index: 2;
         }
         &__item {
@@ -117,14 +116,14 @@
         }
         &__title {
             font-size: 20px;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__text {
             font-size: 14px;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__button {
-            padding: 16px;
+            padding: $step*2;
         }
 
         &__circle {
@@ -140,7 +139,7 @@
         &__item {
             display: inline-block;
             width: 100%;
-            padding: 16px;
+            padding: $step*2;
         }
         &__photo {
             display: inline-block;
@@ -150,14 +149,14 @@
         }
         &__title {
             font-size: 32px;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__text {
             font-size: 18px;
-            padding: 0px 0px 16px 0px;
+            padding: 0px 0px $step*2 0px;
         }
         &__button {
-            padding: 16px;
+            padding: $step*2;
         }
         
         &__circle {

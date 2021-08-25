@@ -35,7 +35,8 @@
         &:hover {
             color: $link-hover;
         }
-    }}
+    }
+}
 
 .topnav {
     overflow: hidden;
@@ -50,7 +51,7 @@
         padding-bottom: $step;
         text-decoration: none;
     }
-  
+
     &__link {
         font-size: $step * 2;
         font-weight: 600;
@@ -58,7 +59,7 @@
         color: $text-color;
         float: left;
         display: block;
-        padding: 8px 8px;
+        padding: $step $step;
         text-decoration: none;
         margin: 0% 0% 0% 9%;
         &:hover {
@@ -73,7 +74,6 @@
     color: $text-color;
 }
 
-
 @media (max-width: 1200px) {
     .topnav {
         &__logo {
@@ -84,14 +84,14 @@
 
         &__link {
             font-size: $step * 2;
-            padding: 8px 8px;
+            padding: $step $step;
             text-decoration: none;
             margin: 0px 0px 0px 68px;
         }
     }
 }
 
-@media  (max-width: 992px) and (max-width: 768px)  {
+@media (max-width: 992px) and (max-width: 768px) {
     .topnav a:not(:first-child) {
         display: none;
     }

@@ -16,7 +16,7 @@
     &__img {
         width: 100%;
         height: auto;
-        border-radius: 8px;
+        border-radius: $step;
     }
 
     &__title {
@@ -24,7 +24,7 @@
         font-size: 24px;
         text-align: center;
         color: $text-color;
-        padding: 0px 0px 8px 0px;
+        padding: 0px 0px $step 0px;
     }
     &__text {
         font-size: 16px;
@@ -117,7 +117,7 @@
             font-size: 24px;
             text-align: center;
             color: $text-color;
-            padding: 0px 0px 8px 0px;
+            padding: 0px 0px $step 0px;
         }
         &__text {
             font-size: 16px;
