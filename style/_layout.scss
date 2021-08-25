@@ -2,47 +2,10 @@
 .container {
     max-width: $container-max-widths;
     margin: 0 auto;
-
-    // Устройства Small (телефоны с горизонтальной ориентацией, 576 пикселей и выше)
-    // @media (min-width: 479.98px) {
-    //     max-width: none;
-    //     padding: 0 10px;
-    // }
-    // @media (min-width: 576px) {
-    //     max-width: 556px;
-    // }
-
-    // // Устройства Medium (планшеты, 768 пикселей и выше)
-    // @media (min-width: 768px) {
-    //     max-width: 750px;
-    // }
-
-    // // Устройства Large (настольные компьютеры, 992 пикселей и выше)
-    // @media (min-width: 992px) {
-    //     max-width: 970px;
-    // }
-
-    // // Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше)
-    // @media (min-width: 1200px) {
-    //     max-width: $container-max-widths;
-    //     margin: 0 auto;
-    // }
-
-    // // Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше)
-    // @media (min-width: 1400px) {
-    //     max-width: $container-max-widths;
-    //     margin: 0 auto;
-    // }
-
     @media (min-width: 320px) and (max-width: 480px) {
         max-width: none;
         padding: 0 10px;
     }
-
-    // @media (max-width: 480px) {
-    //     max-width: none;
-    //     padding: 0 10px;
-    // }
 
     @media (max-width: 576px) {
         max-width: 556px;
@@ -56,11 +19,8 @@
         max-width: 970px;
     }
 
-    // Устройства X-Large (большие настольные компьютеры,)
     @media (max-width: 1200px) {
         max-width: $container-max-widths;
         margin: 0 auto;
     }
-
-    // @media (max-width: 1400px) { ... }
 }

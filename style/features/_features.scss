@@ -60,4 +60,21 @@
             padding: 0px $step * 5 0px $step * 5;
         }
     }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        height: 196px;
+        &__item {
+            float: left;
+            width: 30%;
+            padding: 8px 0px 0px 8px;
+        }
+        &__title {
+            font-size: 16px;
+        }
+
+        &__img {
+            float: none;
+            padding: 0px $step * 4 0px $step * 4;
+        }
+    }
 }

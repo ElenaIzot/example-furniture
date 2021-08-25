@@ -11,40 +11,36 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Furniture</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="menu__logo">Furniture</div>
-        <nav class="menu__body">
-            <ul class="menu__list">
-                <li class="menu__item">
-                    <a class="menu__link" href="#" target="_blank">Home</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#" target="_blank">Services</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#" target="_blank">Doctors</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#" target="_blank">Products</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="#" target="_blank">Gallery</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+        <div class="topnav" id="nav">
+            
+                <a href="#" class="topnav__logo">Furniture</a>
+                <a href="#" class="topnav__link">Home</a>
+                <a href="#" class=" topnav__link">Services</a>
+                <a href="#" class="topnav__link">Doctors</a>
+                <a href="#" class=" topnav__link">Products</a>
+                <a href="#" class=" topnav__link">Gallery</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+           
+        </div>
+        </div>
     </header>
+
     <section class="section-main">
         <div class="container">
             <div class="section-main__introduction">
                 <p class="section-main__text">New Arrival</p>
                 <h1 class="section-main__title">Dicover Our New Collection</h1>
                 <p class="section-main__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim
-                    ex
-                    assumenda facere deserunt tempore.
+                    ex assumenda facere deserunt tempore.
                 </p>
                 <button class="button">Buy now</button>
             </div>
@@ -104,10 +100,7 @@
             <div class="section-article__item">
                 <h2 class="section-article__title">Beautify Your Space</h2>
                 <p class="section-article__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-                    animi
-                    iure
-                    harum optio voluptatibus,
-                    aperiam blanditiis error ea amet numquam!</p>
+                    animi iure harum optio voluptatibus, aperiam blanditiis error ea amet numquam!</p>
                 <button class="section-article__button button">Learn more</button>
             </div>
             <div class="section-article__photo">
@@ -214,6 +207,7 @@
             </div>
         </div>
     </section>
+    <script src="/script.js"></script>
 </body>
 
 </html>
