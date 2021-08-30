@@ -76,11 +76,31 @@
         }
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (max-width: 480px) {
         height: 339px;
         &__img {
             float: left;
             width: 38%;
+        }
+    }
+
+    @media (max-width: 320px)  {
+        height: 608px;
+        &__lists {
+            width: 100%;
+            margin-bottom: $step*3;
+        }
+        &__item {
+            padding: 0px 0px 0px 0px;
+        }
+        &__instagram {
+            width: 100%;
+        }
+
+        &__img {
+            float: left;
+            width: 33%;
+            margin: 0% 0% 2% 2%;
         }
     }
 }

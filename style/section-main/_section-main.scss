@@ -57,7 +57,7 @@
         }
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (max-width: 480px) {
         padding: 80px 0px 80px 0px;
         background: url(../../img/bd-main.png) no-repeat;
         background-size: 208%;
@@ -74,4 +74,11 @@
         }
     }
   
+    @media (max-width: 320px) {
+        padding: 80px 0px 80px 0px;
+        background: url(../../img/bd-main.png) no-repeat;
+        background-size: 348%;
+    }
+       
+    
 }

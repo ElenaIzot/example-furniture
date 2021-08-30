@@ -46,7 +46,29 @@
         height: 477px;
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (max-width: 480px) {
         height: 461px;
+    }
+
+    @media (max-width: 320px)  {
+        height: 1138px;
+        &__lists {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: $step * 3 0px 0px 0px;
+        }
+        &__item {
+            width: 70%;
+            height: auto;
+            float: left;
+            margin: 0% 2% 4% 2%;
+        }
+        &__img {
+            width: 100%;
+            height: auto;
+            border-radius: $step;
+        }
+    
     }
 }

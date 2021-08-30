@@ -61,12 +61,12 @@
         }
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (max-width: 480px) {
         height: 196px;
         &__item {
             float: left;
             width: 30%;
-            padding: 8px 0px 0px 8px;
+            padding: $step 0px 0px $step;
         }
         &__title {
             font-size: 16px;
@@ -75,6 +75,24 @@
         &__img {
             float: none;
             padding: 0px $step * 4 0px $step * 4;
+        }
+    }
+
+    @media (max-width: 320px) {
+        height: 441px;
+        &__item {
+            width: 100%;
+            padding: $step 0px 0px $step;
+            margin: 0px 0px $step*2 0px;
+        }
+        &__title {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        &__img {
+            float: none;
+            padding: 0px 100px 0px 108px;
         }
     }
 }
